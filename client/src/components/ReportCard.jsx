@@ -10,7 +10,7 @@ function ReportCard({ title, report }) {
   const stats = [
     { label: "Highest", value: report.highest, unit: "mg/dL" },
     { label: "Lowest", value: report.lowest, unit: "mg/dL" },
-    { label: "Average", value: report.average?.toFixed(1), unit: "mg/dL" },
+   { label: "Average", value: report.average?.toFixed(1), unit: "mg/dL" },
     { label: "Readings", value: report.totalReadings },
   ];
 

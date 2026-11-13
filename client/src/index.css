@@ -484,3 +484,10 @@ td {
   color: var(--muted);
   margin-left: 4px;
 }
+
+.report-stat-value .summary-unit {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-left: 4px;
+}
